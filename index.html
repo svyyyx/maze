@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Maze</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<style type="text/css">
+		.dot {
+			width: 20px;
+			height: 20px;
+			background-color:;
+			transition: 0.1s;
+			position: relative;
+			background-image: url(fire.png);
+			background-size: 100% 100%
+			
+		}
+		.bigfire {
+			width: 20px;
+			height: 20px;
+			background-color: rgba(0,128,0,0.5);
+			background-image: url(finish.png);
+			background-size: 105% 105%
+			
+		}
+		.main {
+			height: 280px;
+			width: 200px;
+			background-color: ;
+			overflow: hidden;
+		}
+
+		.classA{
+			height: 20px;
+			width: 200px;
+			display: flex;
+		}
+		.kvA{
+			height: 20px;
+			width: 20px;
+			border: medium 1px black;
+			background-color: rgba(0,128,0,0.5);
+		}
+
+		.warrior{
+			height: 20px;
+			width: 20px;
+			background-color: ;
+			background-image: url(sea.png);
+			background-size: 130% 100%;
+			opacity: 1
+		}
+	</style>
+
+</head>
+<body style="background-image: url(retro.jpg); background-size: 100% ">
+	<div style="" class="main mx-auto">
+		<div class="classA">
+			<div class="kvA">
+				<div class="dot"></div>	
+			</div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+		</div>
+
+		<div class="classA">
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+		</div>
+
+		<div class="classA">
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+		</div>
+
+		<div class="classA">
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+		</div>
+
+		<div class="classA">
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+		</div>
+
+		<div class="classA">
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+		</div>
+
+		<div class="classA">
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+		</div>
+
+		<div class="classA">
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+		</div>
+
+		<div class="classA">
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+		</div>
+
+		<div class="classA">
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+		</div>
+
+		<div class="classA">
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+		</div>
+
+		<div class="classA">
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+		</div>
+
+		<div class="classA">
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+		</div>
+
+		<div class="classA">
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="kvA"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="warrior"></div>
+			<div class="bigfire"></div>
+		</div>
+
+
+
+	</div>
+	
+	<script>
+		let ty = 0;
+		let lx = 0;
+		let dot = document.querySelector(".dot")
+		let main = document.querySelector(".main")
+		let bigfire = document.querySelector(".bigfire")
+		document.onkeydown = function(put) {
+ 		if (put.keyCode == 37) {
+    		lx = lx - 20;
+			dot.style.left = lx + "px";
+		  }
+
+		  if (put.keyCode == 39) {
+    		lx = lx + 20;
+			dot.style.left = lx + "px";
+		  }
+
+		  if (put.keyCode == 38) {
+    		ty = ty - 20;
+			dot.style.top = ty + "px";
+		  }
+
+		  if (put.keyCode == 40) {
+    		ty = ty + 20;
+			dot.style.top = ty + "px";
+		  }
+
+		  //1 РЯД
+		  if(ty==0 && lx==20 || ty==0 && lx==40 || ty==0 && lx==40 || ty==0 && lx==60 || ty==0 && lx==80 || ty==0 && lx==100 || ty==0 && lx==120 || ty==0 && lx==140 || ty==0 && lx==180 || ty==20 && lx==40 || ty==20 && lx==60 || ty==20 && lx==120 || ty==20 && lx==140 || ty==40 && lx==0 || ty==40 && lx==40 || ty==40 && lx==60 || ty==40 && lx==100 || ty==40 && lx==120 || ty==40 && lx==140 || ty==40 && lx==180 || ty==60 && lx==40 || ty==60 && lx==180 || ty==80 && lx==0 || ty==80 && lx==40 || ty==80 && lx==60 || ty==80 && lx==80 || ty==80 && lx==120 || ty==80 && lx==140  || ty==100 && lx==0 || ty==100 && lx==60 || ty==100 && lx==120 || ty==100 && lx==140 || ty==100 && lx==160 || ty==120 && lx==0 || ty==120 && lx==20 || ty==120 && lx==60 || ty==120 && lx==100 || ty==120 && lx==120 || ty==120 && lx==140 || ty==140 && lx==0 || ty==140 && lx==20 || ty==140 && lx==100 || ty==140 && lx==140 || ty==140 && lx==160 || ty==160 && lx==60 || ty==160 && lx==140 || ty==180 && lx==20 || ty==180 && lx==60 || ty==180 && lx==80 || ty==180 && lx==120 || ty==180 && lx==180 || ty==200 && lx==20 || ty==200 && lx==80 || ty==200 && lx==140 || ty==220 && lx==40 || ty==220 && lx==60 || ty==220 && lx==80 || ty==220 && lx==100 || ty==220 && lx==160 || ty==220 && lx==180 || ty==240 && lx==0 || ty==240 && lx==80 || ty==240 && lx==100 || ty==240 && lx==120 || ty==260 && lx==0 || ty==260 && lx==20 || ty==260 && lx==40 || ty==260 && lx==120 || ty==260 && lx==140 || ty==260 && lx==160){
+		  	alert("Ты проиграл, твоя ручка заразилась!");
+		  	lx = 0; 
+		  	ty = 0;
+		  	dot.style.left = lx +"px"
+			dot.style.top = ty + "px"	  
+		  }
+
+		  //выйгрыш
+		  if (ty==260 && lx==180) {
+		  	alert("Ты помог ручке добратся до дома!");
+		  	dot.style.display = "none"
+		  }
+
+
+		  //ЛИНИЯ
+		  if(ty==-20 || lx==200 || lx==-20 || ty==280){
+		  	alert("Ты вышел за линию!");
+		  	lx = 0; 
+		  	ty = 0;
+		  	dot.style.left = lx +"px"
+			dot.style.top = ty + "px"	
+		  }
+
+		}
+
+		
+	</script>
+</body>
+</html>

@@ -244,28 +244,29 @@
 	</div>
 	
 	<script>
+		alert("Приветствую тебя в этой игре! Твоя цель помочь Ручке добратся до дома! Управления WASD, для удобства можете увеличить масштаб страницы.")
 		let ty = 0;
 		let lx = 0;
 		let dot = document.querySelector(".dot")
 		let main = document.querySelector(".main")
 		let bigfire = document.querySelector(".bigfire")
 		document.onkeydown = function(put) {
- 		if (put.keyCode == 37) {
+ 		if (put.keyCode == 65) {
     		lx = lx - 20;
 			dot.style.left = lx + "px";
 		  }
 
-		  if (put.keyCode == 39) {
+		  if (put.keyCode == 68) {
     		lx = lx + 20;
 			dot.style.left = lx + "px";
 		  }
 
-		  if (put.keyCode == 38) {
+		  if (put.keyCode == 87) {
     		ty = ty - 20;
 			dot.style.top = ty + "px";
 		  }
 
-		  if (put.keyCode == 40) {
+		  if (put.keyCode == 83) {
     		ty = ty + 20;
 			dot.style.top = ty + "px";
 		  }
